@@ -1,1 +1,24 @@
+# Linux Fundamentals 01
+
+**Platform:** TryHackMe  
+**Room:** Linux Fundamentals 01  
+**Status:** Completed ✅  
+**Focus:** Linux basics (CLI commands + navigation)  
+**Practice:** Hands-on inside the deployed machine
+
+## What I learned
+- Working in the terminal (shell basics)
+- Navigating the filesystem: `pwd`, `ls`, `cd`
+- Creating/managing files & folders: `touch`, `mkdir`, `cp`, `mv`, `rm`
+- Viewing file contents: `cat`, `less`, `head`, `tail`
+- Finding files/data: `find`, basic pattern searching with `grep`
+- Understanding file permissions (intro): `chmod`, `ls -l` (basics)
+- Getting help/documentation: `man`, `--help`
+
+## What I practiced
+- Completed the room tasks directly on the **deployed Linux machine**
+- Used commands to locate files, read logs/text files, and search for specific strings using `grep`
+
+## Proof
+https://tryhackme.com/room/linuxfundamentalspart1?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
 
