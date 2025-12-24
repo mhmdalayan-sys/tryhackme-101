@@ -1,0 +1,13 @@
+## Linux Fundamentals 02 (Premium)
+- Room is premium-only on TryHackMe
+- Covered equivalent topics through:
+  - Local Linux VM practice
+  - Online documentation and exercises
+
+#equivalent topics covered:
+- Users & groups
+- Permissions (advanced chmod, chown)
+- Processes (ps, top, kill)
+- Networking basics (ip, ss, ping)
+- Package management (apt)
+
