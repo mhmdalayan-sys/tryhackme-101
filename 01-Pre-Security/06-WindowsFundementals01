@@ -1,0 +1,25 @@
+ Windows Fundamentals 1
+
+**Platform:** TryHackMe  
+**Path:** Pre-Security (101)  
+**Room:** Windows Fundamentals 1  
+**Status:** Completed ✅  
+**Date:** 2025-12-26
+
+## What I learned
+- Difference between **Windows versions** (client vs server) and why enterprises commonly use Windows.
+- Basic **Windows UI + navigation**: Start menu, settings, taskbar, file explorer, search.
+- Understanding **user accounts** and why standard users vs admin matters (least privilege).
+- What **User Account Control (UAC)** does and why Windows asks for confirmation on admin actions.
+- Windows **file system basics**:
+  - Common folders like `C:\Users\`, `Desktop`, `Documents`, `Downloads`
+  - File paths and extensions
+- File/Folder **permissions** basics (who can read/write/modify).
+- Hidden/system files and why Windows hides important OS files by default.
+- Where to find important **system info** (System settings / About / basic device info).
+
+## Key takeaway
+Windows has a lot of built-in security and management concepts (accounts, privileges, UAC, permissions). Learning these fundamentals makes it easier to understand how Windows is secured and how attackers/defenders interact with it.
+
+## Proof
+https://tryhackme.com/room/windowsfundamentals1xbx?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
