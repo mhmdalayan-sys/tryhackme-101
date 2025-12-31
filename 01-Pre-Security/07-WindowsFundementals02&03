@@ -1,0 +1,36 @@
+# 🪟 Windows Fundamentals 2 & 3
+
+**Platform:** TryHackMe  
+**Path:** Pre-Security  
+**Rooms:** Windows Fundamentals 2, Windows Fundamentals 3  
+**Status:** ✅ Completed
+
+---
+
+## 📘 What I Learned
+
+### 🔹 Windows Fundamentals 2
+- **System Configuration & UAC** – startup control and admin permissions  
+- **Computer Management** – users, disks, and event logs  
+- **System Information** – hardware and OS details  
+- **Resource Monitor** – CPU, memory, disk, and network usage  
+- **Command Prompt** – system control via commands  
+- **Registry Editor** – core system configuration (persistence risk)
+
+### 🔹 Windows Fundamentals 3
+- **Windows Security** – central security dashboard  
+- **Firewall & Virus Protection** – traffic filtering and malware defense  
+- **Network Protection** – blocks malicious sites and downloads  
+- **Device Security** – hardware-based protections  
+- **BitLocker** – full disk encryption  
+- **VSS** – file and system snapshots for recovery
+
+---
+
+## 🧠 Key Takeaway
+Built-in Windows tools are powerful for **administration** and **defense**, but can be abused if misconfigured.
+
+---
+
+## 🧾 Proof
+https://tryhackme.com/room/windowsfundamentals3xzx?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
