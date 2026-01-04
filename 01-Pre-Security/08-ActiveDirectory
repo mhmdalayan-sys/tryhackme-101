@@ -1,21 +1,35 @@
 # Active Directory (AD)
-
-**Platform:** TryHackMe  
-**Room:** Active Directory  
-**Status:** Completed ✅  
-**Date:** 2026-01-04
-
-## Key concepts
-- Windows Domain provides centralized management.
-- Active Directory (AD) stores and manages users, computers, and groups.
-- Users & computers are managed centrally instead of per machine.
-- Organizational Units (OUs) are used to organize objects and apply policies.
-- Group Policy Objects (GPOs) enforce security and system settings.
-- Kerberos is the default authentication protocol in AD.
-- Domains can be linked using trees, forests, and trusts.
-
-## Key takeaway
-Active Directory is the backbone of enterprise Windows environments, enabling centralized authentication, authorization, and policy enforcement at scale.
-
+---
+## 1. Core Idea (in simple words)
+- Active Directory is Microsoft’s system for managing users, computers, and permissions.
+- It centralizes authentication and access in Windows environments.
+---
+## 2. Why It Exists (🛡️Defender View)
+- Manage users from one place.
+- Control who can access what.
+- Apply security policies across the network.
+---
+## 3. 🔥 Attacker POV
+- AD is usually the **heart of the organization**.
+- Compromising AD often means **owning the whole network**.
+- One weak account can lead to full domain compromise.
+---
+## 4. ⚠️ Common Misconfigurations
+- Users with too many privileges.
+- Weak or reused passwords.
+- Old or unused accounts still enabled.
+- Poor monitoring of login attempts.
+---
+## 5. What I Would Try as an Attacker
+- Enumerate domain users and groups.
+- Look for accounts with elevated permissions.
+- Check for weak authentication settings.
+- Try lateral movement after first access.
+---
+## 6. 🧠 Key Takeaways
+- AD is a high-value target.
+- Small mistakes can have huge impact.
+- Attackers don’t need zero-days — misconfigs are enough.
+---
 ## Proof
 https://tryhackme.com/room/winadbasics?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
