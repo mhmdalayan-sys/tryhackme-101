@@ -1,0 +1,21 @@
+# Active Directory (AD)
+
+**Platform:** TryHackMe  
+**Room:** Active Directory  
+**Status:** Completed ✅  
+**Date:** 2026-01-04
+
+## Key concepts
+- Windows Domain provides centralized management.
+- Active Directory (AD) stores and manages users, computers, and groups.
+- Users & computers are managed centrally instead of per machine.
+- Organizational Units (OUs) are used to organize objects and apply policies.
+- Group Policy Objects (GPOs) enforce security and system settings.
+- Kerberos is the default authentication protocol in AD.
+- Domains can be linked using trees, forests, and trusts.
+
+## Key takeaway
+Active Directory is the backbone of enterprise Windows environments, enabling centralized authentication, authorization, and policy enforcement at scale.
+
+## Proof
+https://tryhackme.com/room/winadbasics?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
