@@ -1,0 +1,60 @@
+# 🪟 Windows Fundamentals – Command Line 💻
+
+**Platform:** TryHackMe  
+**Path:** Pre-Security  
+**Room:** Windows CLI  
+**Status:** Completed ✅  
+
+---
+
+## 🔍 Overview
+This room introduces the Windows command-line environment and covers essential commands used to inspect system information, troubleshoot networks, manage files, and monitor running processes.
+
+---
+
+## 🧠 Key Topics Learned
+
+### 🖥️ System Information
+- `whoami`, `hostname`
+- `systeminfo`
+
+**Attacker POV:** identify user context and system details  
+**Defender POV:** verify privileges and system configuration  
+
+---
+
+### 🌐 Network Troubleshooting
+- `ipconfig`
+- `ping`
+- `netstat`/'tracert'/'nslookup'
+
+**Attacker POV:** discover network layout and active connections  
+**Defender POV:** detect abnormal network activity  
+
+---
+
+### 📁 File & Disk Management
+- `dir`, `cd`
+- `mkdir`, `del`
+
+**Attacker POV:** locate sensitive files and writable paths  
+**Defender POV:** audit file locations and storage usage  
+
+---
+
+### ⚙️ Task & Process Management
+- `tasklist`
+- `taskkill`
+
+**Attacker POV:** identify or disrupt running processes  
+**Defender POV:** detect and terminate malicious activity  
+
+---
+
+## 🎯 Key Takeaway
+Windows command-line skills are critical for both offensive and defensive security operations, as many investigations and attacks rely on native system tools.
+
+---
+
+## 📌 Proof
+https://tryhackme.com/room/windowscommandline?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
