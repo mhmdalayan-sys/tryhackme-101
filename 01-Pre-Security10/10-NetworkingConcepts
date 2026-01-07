@@ -1,0 +1,32 @@
+# Networking Concepts
+
+**Platform:** TryHackMe  
+**Path:** Pre-Security  
+**Room:** Networking Concepts  
+**Status:** Completed ✅  
+
+---
+
+## Key Concepts
+- OSI & TCP/IP models for understanding data flow
+- IP addressing and subnetting for network structure
+- TCP vs UDP communication
+- Encapsulation process
+- Telnet over TCP
+
+---
+
+## Attacker vs Defender Perspective
+- Attackers use network models and IP ranges to scan and target systems
+- Defenders use the same knowledge to segment networks and monitor traffic
+- Insecure protocols like Telnet expose credentials and should be avoided
+
+---
+
+## Key Takeaway
+Networking fundamentals are essential for identifying attack surfaces and applying effective defenses.
+
+---
+
+## Proof
+https://tryhackme.com/room/networkingconcepts?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
