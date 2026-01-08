@@ -1,0 +1,33 @@
+# Nmap Basics
+
+**Platform:** Self-study (Online-Sources + Hands-on)  
+**Category:** Networking / Reconnaissance  
+**Tool:** Nmap  
+**Status:** Completed ✅  
+
+---
+
+## Objective
+Learn the basics of network scanning using Nmap and understand how hosts, ports, and firewalls affect scan results.
+
+---
+
+## Environment
+- Linux VM (VirtualBox)
+- Local NAT / Host-only network
+
+---
+
+## Key takeaways
+- nmap syntax
+- nmap basic options
+- nmap target options
+-logging resuls and saving log-docs of nmap outputs to be studied in real-life incidents
+
+---
+
+## Pen-tester POV
+- Identify live hosts, exposed ports, and running services as an initial attack surface.
+- Scan results help determine firewall behavior and guide further enumeration or exploitation steps.
+
+
