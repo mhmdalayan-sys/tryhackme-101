@@ -1,0 +1,31 @@
+Platform: Self-study (Online-Sources + Hands-on)
+Category: Security Fundamentals
+Focus: Cryptography Concepts
+Status: Completed ✅
+
+# Objective
+
+Understand the core principles of cryptography and how encryption, hashing, and keys are used to protect data confidentiality, integrity, and authenticity.
+---
+# Environment
+
+Linux VM (VirtualBox)
+Basic CLI tools (OpenSSL)
+Online labs & documentation
+---
+# Key takeaways
+
+Purpose and goals of cryptography (confidentiality, integrity, authentication)
+Difference between symmetric and asymmetric encryption
+Common cryptographic algorithms (AES, RSA, SHA)
+Hashing vs encryption
+Real-world use cases (passwords, HTTPS, certificates)
+---
+# Pen-tester POV
+
+Identify weak or outdated cryptographic algorithms in use.
+Detect poor key management or insecure hashing practices.
+Cryptography knowledge helps assess HTTPS, authentication mechanisms, and data protection flaws during assessments.
+---
+# Proof 
+https://tryhackme.com/room/cryptographybasics?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
