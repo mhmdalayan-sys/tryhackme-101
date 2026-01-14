@@ -1,0 +1,43 @@
+Platform: Self-study (Hands-on)
+Category: Security Fundamentals
+Focus: Password Cracking & Hash Security
+Status: Completed ✅
+
+---
+#Environment
+
+Linux VM (VirtualBox)
+John the Ripper (Jumbo)
+Wordlists (rockyou, custom)
+hash & zip-files for testing-usage
+---
+#Key takeaways
+
+Password cracking relies on guessing, not decryption
+Weak passwords and fast hashes are easily broken
+Wordlists and rules improve cracking efficiency
+Offline attacks leave no immediate traces
+---
+#Pen-tester POV
+
+Test real-world password strength through hash cracking
+Exploit leaked or accessible hash files
+Simulate attacker techniques using wordlists and rules
+Identify insecure hashing algorithms
+---
+#Defender POV
+
+Enforce strong and unique password policies
+Use salted, slow hashing algorithms
+Restrict access to stored hashes and backups
+Audit credentials using cracking tools
+---
+#Hands-on
+
+Cracked sample MD5 hashes using John
+Performed wordlist-based attacks
+Cracked password-protected ZIP files
+Tested basic rule-based modifications
+---
+#Proof:
+Local labs and self-study exercises
