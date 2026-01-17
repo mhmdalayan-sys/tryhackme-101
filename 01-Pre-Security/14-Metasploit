@@ -1,0 +1,40 @@
+Platform: TryHackMe
+Room: Metasploit: Introduction
+Category: Exploitation Basics
+Tool: Metasploit Framework
+Status: Completed ✅
+----
+#General Purpose
+It focuses on understanding Metasploit’s architecture, using msfconsole, and learning how to work with modules
+and Meterpreter in a controlled lab environment.
+The goal is familiarization, not blind exploitation.
+----
+#Key Takeaways
+-Metasploit uses a modular design (exploits, payloads, auxiliary, post).
+-msfconsole is the main interface to search, configure, and execute modules.
+-Successful exploitation depends on correct:
+   Target selection
+   Payload choice
+   Option configuration
+-Meterpreter provides in-memory post-exploitation capabilities.
+-Sessions allow handling multiple compromised targets efficiently.
+----
+#Pen-Tester POV
+-Quickly validate vulnerable services identified during reconnaissance.
+-Test exploit reliability in a safe lab environment before real engagements.
+-Use Meterpreter for:
+   System enumeration
+   Privilege assessment
+   Credential access
+-Understand attacker workflows to improve report accuracy.
+-Acts as a bridge between scanning tools and manual exploitation.
+----
+#Fields of Advantages
+Beginner-Friendly Framework
+Centralized Workflow
+Powerful Post-Exploitation
+Reusable Modules
+Industry-Relevant Tool
+----
+#Proof
+https://tryhackme.com/room/metasploitintro?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
