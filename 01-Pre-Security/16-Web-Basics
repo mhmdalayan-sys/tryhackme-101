@@ -1,0 +1,66 @@
+Web Basics – TryHackMe Learning Log
+Platform: TryHackMe (THM) Category: Web Fundamentals Room: Web Basics Status: Completed ✅
+
+📌 Summary
+
+This repo documents my completion of the Web Basics room on TryHackMe. It covers the core concepts behind how web applications communicate using HTTP, with a security-focused mindset.
+
+🧱 Core Topics Covered
+1️⃣ Web Application Basics
+
+Client vs Server model
+Role of the browser
+HTTP as the core communication protocol
+
+2️⃣ URL Structure
+
+Scheme, Host, Port
+Path, Query String, Fragment
+Security note:
+Query strings often carry user input and are common attack surfaces
+
+3️⃣ HTTP Requests
+
+Request line: Method, Path, Version
+Common methods: GET, POST, PUT, DELETE
+Headers vs Body
+
+4️⃣ HTTP Responses
+
+Status line and status codes (200, 301, 403, 404, 500)
+Response headers and body
+
+5️⃣ Security Headers
+
+CSP
+HSTS
+X-Frame-Options
+X-Content-Type-Options
+
+Purpose:
+
+Reduce XSS, clickjacking, and information leakage
+
+6️⃣ Practical HTTP Interaction
+
+Sending and inspecting HTTP requests
+Understanding how servers respond
+
+🧠 Attacker POV
+
+HTTP traffic is readable and modifiable
+User input exists in URLs, headers, and bodies
+
+🛡️ Defender POV
+
+Enforce proper methods
+Apply security headers
+Minimize information disclosure
+
+✅ Outcome
+
+Strong foundation in web communication
+Ready for Burp Suite, OWASP Top 10, and web exploitation labs
+
+#Proof
+https://tryhackme.com/room/webapplicationbasics?utm_campaign=social_share&utm_medium=social&utm_content=room&utm_source=copy&sharerId=6945499f39cd36bec0409d7e
