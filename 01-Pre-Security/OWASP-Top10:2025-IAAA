@@ -1,0 +1,91 @@
+OWASP Top 10 (2025) Room
+
+📌 Overview
+
+This repository documents my learning progress through a cybersecurity training room focused on the OWASP Top 10 (2025) vulnerabilities.
+The goal of this log is to track key concepts, understand real-world risks, and reinforce secure coding practices through hands-on learning.
+
+🎯 Objectives
+Understand common web application vulnerabilities
+Learn how attackers exploit insecure systems
+Explore mitigation and secure design strategies
+Build a strong foundation in application security
+🔍 Topics Covered
+🛑 A01: Broken Access Control
+
+Broken Access Control occurs when users can act outside their intended permissions.
+
+Key Learnings:
+
+Horizontal privilege escalation (accessing other users’ data)
+Vertical privilege escalation (gaining admin access)
+Insecure direct object references (IDOR)
+Missing or improperly enforced authorization checks
+
+Impact:
+
+Unauthorized data access
+Account takeover
+Exposure of sensitive information
+
+Prevention:
+
+Enforce server-side access control checks
+Use role-based access control (RBAC)
+Avoid trusting client-side input for authorization
+⚙️ A07: Identification and Authentication Failures
+
+This category focuses on weaknesses in authentication mechanisms.
+
+Key Learnings:
+
+Weak password policies
+Lack of multi-factor authentication (MFA)
+Session mismanagement (predictable or reused session IDs)
+Credential stuffing and brute-force attacks
+
+Impact:
+
+Account compromise
+Unauthorized system access
+
+Prevention:
+
+Implement strong password policies
+Use MFA
+Secure session handling (timeouts, regeneration)
+Rate limiting and login protections
+📦 A09: Security Logging and Monitoring Failures
+
+Failures in logging and monitoring reduce visibility into attacks.
+
+Key Learnings:
+
+Missing or insufficient logging
+Lack of real-time monitoring
+Poor incident detection capabilities
+
+Impact:
+
+Delayed detection of breaches
+Inability to investigate attacks
+Increased damage due to unnoticed intrusions
+
+Prevention:
+
+Implement centralized logging
+Monitor authentication and access events
+Use alerting systems for suspicious activities
+Regularly review logs
+🧠 Key Takeaways
+Security must be enforced server-side, not trusted to users
+Authentication and authorization are separate but equally critical
+Logging is essential for detection and response, not just debugging
+Real-world vulnerabilities often result from simple misconfigurations
+🚀 Next Steps
+Practice these vulnerabilities in real labs (e.g., CTFs, vulnerable apps)
+Explore additional OWASP categories
+Start building and testing secure applications
+📖 Notes
+
+This repository is part of my personal cybersecurity journey and serves as a reference for concepts I have studied and practiced.
