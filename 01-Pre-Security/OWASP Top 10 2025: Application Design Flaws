@@ -1,0 +1,41 @@
+OWASP Top 10 – Security Learning Log (THM)
+Overview
+
+This repository documents my hands-on learning progress on web application security concepts using TryHackMe, aligned with the OWASP Top 10 (2025).
+
+Topics Covered
+
+AS02: Security Misconfigurations
+Identified risks caused by improper system and application configurations
+Learned impact of default credentials, exposed services, and verbose error messages
+Practiced recognizing insecure deployment setups
+
+AS03: Software Supply Chain Failures
+Understood risks from third-party dependencies and external components
+Explored dependency vulnerabilities and package integrity issues
+Learned importance of version control, patching, and trusted sources
+
+AS04: Cryptographic Failures
+Studied weak or improper use of cryptography
+Identified risks such as plaintext data exposure and weak encryption algorithms
+Practiced secure data handling and encryption basics
+
+AS06: Insecure Design
+Learned about flaws originating from poor system design decisions
+Understood threat modeling and secure architecture principles
+Identified logic flaws and missing security controls early in development
+
+Key Takeaways
+Security must be integrated at design, development, and deployment stages
+Misconfigurations and weak cryptography remain common real-world risks
+Dependency management is critical in modern applications
+Secure design reduces vulnerabilities before implementation
+
+Tools & Platform
+TryHackMe (THM)
+OWASP Top 10 (2025)
+
+Summary 
+Security design failures across AS02 Security Misconfigurations, AS03 Software Supply Chain Failures, 
+AS04 Cryptographic Failures, and AS06 Insecure Design all come from the same root cause: weak foundations. 
+You cannot add security at the end and expect it to work. Strong systems start with clear security requirements, realistic threat assumptions, controlled configurations, vetted dependencies, and sound cryptographic choices.
