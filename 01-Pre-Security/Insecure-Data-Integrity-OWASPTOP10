@@ -1,0 +1,38 @@
+🔐 OWASP Top 10 – Learning Log (TryHackMe)
+📌 Overview
+
+This repository documents my learning progress through a TryHackMe room covering selected topics from the OWASP Top 10 (2021/2025). The focus was on understanding common web application vulnerabilities, their impact, and basic mitigation strategies.
+
+📚 Covered Topics
+A04: Cryptographic Failures
+Weak or improper encryption
+Sensitive data exposure
+Secure data handling practices
+A05: Injection
+SQL Injection, Command Injection
+Root causes and exploitation basics
+Input validation and sanitization
+A08: Software and Data Integrity Failures
+Integrity verification issues
+Insecure CI/CD pipelines
+Dependency and update risks
+
+🎯 Learning Outcomes
+Gained practical understanding of critical web vulnerabilities
+Learned how common misconfigurations lead to exploitation
+Strengthened secure coding and defensive mindset
+Improved ability to identify and analyze security flaws
+
+
+📌 Instructions:
+
+Rename your screenshot to badge.png
+Place it in the root of your repo
+Or adjust the path if stored in a folder (e.g., /images/badge.png)
+🛠️ Tools & Platform
+TryHackMe (Hands-on labs)
+Web security fundamentals
+Browser & basic testing tools
+📎 Notes
+
+This repository is part of my continuous journey in Application Security / Penetration Testing, focusing on real-world vulnerabilities aligned with industry standards.
