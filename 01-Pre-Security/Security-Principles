@@ -1,0 +1,45 @@
+## Security principles
+
+📚 Topics Covered
+✅ Task 2 — CIA Triad
+Confidentiality: Ensuring data is accessible only to authorized users
+Integrity: Maintaining data accuracy and trustworthiness
+Availability: Ensuring systems and data are accessible when needed
+✅ Task 3 — DAD Triad
+Disclosure (opposite of Confidentiality)
+Alteration (opposite of Integrity)
+Denial (opposite of Availability)
+
+Understanding attacker goals by reversing the CIA model.
+
+✅ Task 4 — Fundamental Concepts of Security Models
+Introduction to structured security frameworks
+Understanding how policies enforce secure system behavior
+Basics of models like access control and trust boundaries
+✅ Task 5 — Defence-in-Depth
+Layered security approach
+Multiple defensive mechanisms across:
+Network
+System
+Application
+Reduces single points of failure
+✅ Task 6 — ISO/IEC 19249
+International standard for security architecture framework
+Focus on:
+Security design principles
+System protection strategies
+Risk-aware architecture
+✅ Task 7 — Zero Trust vs Trust but Verify
+Zero Trust:
+Never trust, always verify
+Continuous authentication and validation
+Trust but Verify:
+Trust established entities, but validate when needed
+✅ Task 8 — Threat vs Risk
+Threat: Potential cause of harm
+Risk: Likelihood × Impact of a threat exploiting a vulnerability
+🎯 Key Takeaways
+Security is layered, not a single solution
+Understanding attacker mindset is critical (DAD model)
+Modern security relies heavily on Zero Trust principles
+Risk management is central to decision-making
